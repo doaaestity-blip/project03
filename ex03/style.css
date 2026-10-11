@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #1e293b;
+}
+
+.card-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 440px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+    padding: 32px 28px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+}
+
+.header-section {
+    margin-bottom: 24px;
+}
+
+.badge {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0369a1;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.display-card {
+    background: #f8fafc;
+    border-radius: 16px;
+    padding: 24px 16px;
+    margin-bottom: 28px;
+    border: 1px solid #f1f5f9;
+}
+
+#count {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1e293b;
+    transition: color 0.2s ease, transform 0.1s ease;
+}
+
+.label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #64748b;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 12px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.btn .icon {
+    font-size: 14px;
+}
+
+.btn-inc {
+    background-color: #2563eb;
+}
+
+.btn-inc:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.btn-dec {
+    background-color: #dc2626;
+}
+
+.btn-dec:hover {
+    background-color: #b91c1c;
+    transform: translateY(-1px);
+}
+
+.btn-res {
+    background-color: #64748b;
+}
+
+.btn-res:hover {
+    background-color: #475569;
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
